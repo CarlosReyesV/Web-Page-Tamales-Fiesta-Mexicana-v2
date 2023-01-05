@@ -1,0 +1,275 @@
+.areaTabla{
+    width: auto;
+    min-width: 450px;
+} 
+  /* Texto */
+h3{
+    text-align: center;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.folio h4, h5{
+    text-align: center;
+    align-content: center;
+}
+
+.buscarF{
+    text-align: center;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+.buscarID{
+    text-align: center;
+    align-content: center;
+    padding-bottom: 15px;
+}
+
+.motivo{
+    width: auto;
+    max-width: 450px;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+.motivo h5{
+    padding: 10px;
+}
+
+/* Modal box de capturas */
+.capturaBtn {
+    width: auto;
+    max-width: 100px;
+    height: auto;
+    background-color: #8BC34A;
+    color: white;
+    padding: 8px 8px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.capturaBtn:hover {
+    opacity: 0.8;
+}
+
+.cancelarVBtn, .capturaVPBtn {
+    background-color: transparent;
+    width: auto;
+    max-width: 100px;
+    height: auto;
+    color: black;
+    padding: 8px 8px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.eliminarBtn {
+    width: auto;
+    max-width: 100px;
+    height: auto;
+    background-color: #FF9800;
+    color: white;
+    padding: 8px 8px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.eliminarBtn:hover {
+    opacity: 0.8;
+}
+
+.devolBtn {
+    width: auto;
+    max-width: 100px;
+    height: auto;
+    background-color: #FF9800;
+    color: white;
+    padding: 8px 8px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.devolBtn:hover {
+    opacity: 0.8;
+}
+
+.modalCaptura input[type=text], 
+.modalCaptura input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#confirmBtn{
+    background-color: #8BC34A;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: auto;
+}
+
+#confirmBtn:hover {
+    opacity: 0.8;
+}
+
+/* Centrar el icono de cerrar */
+.exitC {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Fondo al abrir del modal */
+.modalCaptura {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+  /* Contenido del Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/*Icono de cerrar (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Animacion de zoom al presionar capturar*/
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+  /* Tabla */
+.tProductos{
+    overflow:scroll;
+    max-height:380px;
+    width:auto;
+    margin-left: 50px;
+}
+
+.tProductos table {
+    width:auto;
+    background-color:lightgray;
+    font-family: arial, sans-serif;
+    text-align: left;
+}
+
+th {
+    background-color: #FF9800;
+    padding: 5px 14px;
+}
+
+td:hover{
+    background-color: #8BC34A;
+}
+
+td {
+    border: 1px solid white;
+    text-align: left;
+    padding: 5px;
+    background-color: white;
+}
+
+tr:nth-child(1) {
+    background-color: white;
+}
+
+/* ---RESPONSIVE DESIGN--- */
+@media screen and (max-width: 1200px) {
+    .tProductos{
+        height:auto;
+    }
+
+    .areaTabla{
+        min-width: 0px;
+    } 
+}
+
+@media screen and (max-width: 800px) {
+    th {
+        background-color: #FF9800;
+        padding: 4px 10px;
+    }
+
+    td {
+        padding: 4px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tProductos{
+        min-width: 0px;
+        height:auto;
+        margin-left: 0px;
+    }
+
+    th {
+        background-color: #FF9800;
+        padding: 4px 10px;
+    }
+
+    td {
+        padding: 4px;
+    }
+}

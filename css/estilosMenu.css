@@ -1,0 +1,231 @@
+* {box-sizing: border-box}
+
+body, html {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.mainheader{
+  display: flex;
+  justify-content: center;
+  background-color: #FF9800;
+  width: auto;
+}
+
+.navheader{
+  display: flex;
+  padding: 15px 15px 15px 15px;
+  width: auto;
+}
+
+.logo{
+  display: flex;
+  max-width:250px;
+  width: auto;
+  margin-left: 300px;
+}
+
+.butUser button{
+  width: 170px;
+  border-style: double ;
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-left: 200px;
+  font-size: 18px;
+  background-color: white;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  color: black;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+.mainpart{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  min-height: 650px;
+  padding: 10px 11px ;
+  background-color: whitesmoke;
+}
+
+/* Menu desplegable */
+.barraIzq{
+  width: 200px;
+  height: 580px;
+  background-color: whitesmoke;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #FF9800;
+}
+
+.ajustes, .generales, .operacion, .reportes{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.btnGene, .btnOpera, .btnRepo {
+  background-color: #FF9800;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropGene, .dropOpera, .dropRepo {
+  display: none;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropGene a, .dropOpera a, .dropRepo a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropGene a:hover, .dropOpera a:hover, .dropRepo a:hover{
+  background-color: #ddd;
+  color: #FF9800;
+}
+
+.ajustes:hover .dropGene {display: block;}
+.ajustes:hover .btnGene {background-color: #8BC34A;}
+
+.generales:hover .dropGene {display: block;}
+.generales:hover .btnGene {background-color: #8BC34A;}
+
+.operacion:hover .dropOpera {display: block;}
+.operacion:hover .btnOpera {background-color: #8BC34A;}
+
+.reportes:hover .dropRepo {display: block;}
+.reportes:hover .btnRepo {background-color: #8BC34A;}
+
+/* Boton de usuario */
+.soporte{
+  display: block;
+  width: 100%;
+}
+
+.sopB {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  background-color: #FF9800;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  color: #ffffff;
+  padding: 20px 16px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+/* Footer */
+.mainfooter{
+  background-color: #FF9800;
+  display: flex;
+  justify-content: center;
+} 
+
+
+/* ---RESPONSIVE DESIGN--- */
+@media screen and (max-width: 1410px) {
+  .barraIzq{
+    width: auto;
+  }
+
+  .btnGene, .btnOpera, .btnRepo {
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  .dropGene a, .dropOpera a, .dropRepo a {
+    padding: 6px 8px;
+  }
+
+  .butUser button{
+    width: auto;
+  }
+
+  .logo{
+    width: auto;
+    margin-left: 0px;
+  }
+
+  .sopB{
+    font-size: 15px;
+  }
+
+}
+
+@media screen and (max-width: 930px) {
+  .mainheader{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .navheader{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .butUser button{
+    width: auto;
+    margin: 0px;
+    padding: 10px;
+  }
+
+  .logo{
+    height: auto;
+    width: auto;
+    margin: 0px;
+    padding: 10px;
+  }
+  
+  .mainpart{
+    flex-direction: column;
+  }
+
+  .barraIzq{
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .sopB{
+    padding: 10px 8px;
+  }
+}
+
+/* Touch (no scrollbar) */
+@media screen and (max-width: 400px){
+  body{
+    overflow: auto;
+  }
+  body::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+}
