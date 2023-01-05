@@ -5,7 +5,7 @@ Created with PHP, HTML, CSS and JavaScript. This web page is designed to make CR
 The "admin" folder, contains the CMS (Content Management System), with all PHP and CSS respective files.
 
 
-note: The variables "servername, username, password and db_name" on files such as "insertar", "borrar", "con", "conexiones", "validar", "actualizar", "editar" and "conect", have my local server, user, password and database, keep that on mind.
+note: The variables "servername, username, password and db_name" on files such as "insertar", "borrar", "con", "conexiones", "validar", "actualizar", "editar" and "conect", have my local server, user, password and database, keep that in mind.
 
 
 note: The limit of this project is that CMS cannot create new tables and new pages.
