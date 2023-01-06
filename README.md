@@ -1,6 +1,6 @@
 # Web-Page-with-CMS-v2
 ## Designed for the enterprise "Tamales Fiesta Mexicana".
-Created with PHP, HTML, CSS and JavaScript. This web page is designed to make CRUD (Create, Read, Update, Delete) operations, for inventory and company stock.
+Created with PHP, HTML, CSS and JavaScript. This web page is designed to make CRUD (Create, Read, Update, Delete) operations, for inventory and company stock. Connection with PHPmyAdmin.
 
 The "admin" folder, contains the CMS (Content Management System), with all PHP and CSS respective files.
 
@@ -13,7 +13,7 @@ Note: The limit of this project is that CMS cannot create new tables and new pag
 ----
 # Página-Web-con-Administrador-de-contenidos-v2
 ## Diseñado para la empresa "Tamales Fiesta Mexicana".
-Creado con PHP, HTML, CSS y JavaScript. Esta página web está diseñada para realizar operaciones CRUD (crear, leer, actualizar y borrar), para el inventario y las existencias de la empresa.
+Creado con PHP, HTML, CSS y JavaScript. Esta página web está diseñada para realizar operaciones CRUD (crear, leer, actualizar y borrar), para el inventario y las existencias de la empresa. Conexión realizada con PHPmyAdmin.
 
 La carpeta de "admin" contiene el CMS (Sistema de Gestión de Contenido), con todos los archivos PHP y CSS respectivos. 
 
