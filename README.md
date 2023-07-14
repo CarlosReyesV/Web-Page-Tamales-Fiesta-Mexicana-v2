@@ -8,7 +8,7 @@ The "admin" folder, contains the CMS (Content Management System), with all PHP a
 Note: The variables "servername, username, password and db_name" on files such as "insertar", "borrar", "con", "conexiones", "validar", "actualizar", "editar" and "conect", have my local server, user, password and database, keep that in mind.
 
 
-Note: As a school project, one of the limits is the CMS cannot create new tables and new pages.
+Note: As a college project, one of the limits is the CMS cannot create new tables and new pages.
 
 ----
 # Página-Web-con-Administrador-de-contenidos-v2
@@ -21,4 +21,4 @@ La carpeta de "admin" contiene el CMS (Sistema de Gestión de Contenido), con to
 Nota: Las variables "servername, username, password y db_name" en archivos como "insertar", "borrar", "con", "conexiones", "validar", "actualizar", "editar" y "conect", tienen mi servidor local, usuario, cotraseña y base de datos, téngalo en cuenta.
 
 
-Nota: Como projecto para la escuale, uno de los limites es que el CMS no puede crear nuevas tablas y nuevas páginas.
+Nota: Como projecto para la universidad, uno de los limites es que el CMS no puede crear nuevas tablas y nuevas páginas.
