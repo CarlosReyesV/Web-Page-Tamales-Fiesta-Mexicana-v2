@@ -1,5 +1,5 @@
 # Web-Page-with-CMS-v2
-## Designed for the enterprise "Tamales Fiesta Mexicana".
+## Designed as a project, for the enterprise "Tamales Fiesta Mexicana".
 Created with PHP, HTML, CSS and JavaScript. This web page is designed to make CRUD (Create, Read, Update, Delete) operations, for inventory and company stock. Connection made with MySQL and database created in phpMyAdmin.
 
 The "admin" folder, contains the CMS (Content Management System), with all PHP and CSS respective files.
@@ -8,7 +8,7 @@ The "admin" folder, contains the CMS (Content Management System), with all PHP a
 Note: The variables "servername, username, password and db_name" on files such as "insertar", "borrar", "con", "conexiones", "validar", "actualizar", "editar" and "conect", have my local server, user, password and database, keep that in mind.
 
 
-Note: The limit of this project is that CMS cannot create new tables and new pages.
+Note: As a school project, one of the limits is the CMS cannot create new tables and new pages.
 
 ----
 # Página-Web-con-Administrador-de-contenidos-v2
@@ -21,4 +21,4 @@ La carpeta de "admin" contiene el CMS (Sistema de Gestión de Contenido), con to
 Nota: Las variables "servername, username, password y db_name" en archivos como "insertar", "borrar", "con", "conexiones", "validar", "actualizar", "editar" y "conect", tienen mi servidor local, usuario, cotraseña y base de datos, téngalo en cuenta.
 
 
-Nota: El límite de este proyecto es que CMS no puede crear nuevas tablas y nuevas páginas.
+Nota: Como projecto para la escuale, uno de los limites es que el CMS no puede crear nuevas tablas y nuevas páginas.
